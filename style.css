@@ -1,0 +1,67 @@
+body {
+    background: rgba(135,206,235,255);
+    border: 10px solid rgba(72,205,49,255);
+    color: gray;
+    padding: 200px;
+    margin: 100px;
+    height: 600px;
+
+}
+header{
+    text-align: center;
+
+}
+header > h1 {
+    text-align: center;
+    font-style: italic;
+    display: inline-block;
+    color: white;
+
+}
+li {
+    display: inline-block;
+    color: white;
+}
+header a {
+    color: limegreen;
+    
+}
+section {
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    float: none;
+
+}
+img {
+    height: auto;
+    width: 200px;
+    margin: auto 60px 40px 60px;
+    display: block;
+    float: right;
+    padding: 1%;
+}
+p {
+    line-height: 20px;
+    margin: 30px;
+
+
+}
+footer{
+    text-align: center;
+
+}
+footer > nav {
+    color: gray;
+}
+footer a {
+    color: limegreen;
+}
+    /*2. wrap text in paragraphs
+    3. image on the right between the two paragraphs taking up space*/
+
+@media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
